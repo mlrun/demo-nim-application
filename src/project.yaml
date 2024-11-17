@@ -1,0 +1,16 @@
+kind: project
+metadata:
+  created: '2024-11-07T08:36:57.275000'
+  name: mlrun-nvidia-nim-demo-edmond
+spec:
+  desired_state: online
+  source: ''
+  conda: ''
+  functions:
+  - url: nim_model_server.py
+    name: nim-gateway
+    kind: serving
+    image: mlrun/mlrun
+  owner: edmond
+status:
+  state: online
