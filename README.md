@@ -1,6 +1,6 @@
 # **Banking AI Bot** - Multi-Agent System with NVIDIA NIMs
 
-<img src="./images/llm_gateway.png" alt="nim-mlrun" style="width: 500px"/>
+<img src="./images/mlrunXnvidia.png" alt="nim-mlrun" style="width: 800px"/>
 
 This demo shows how to deploy NVIDIA NIM (NVIDIA Inference Microservices) and build an AI application: a **Multi-Agent Banking Bot**! We'll deploy [**NVIDIA's NIM**](https://developer.nvidia.com/nim) microservices and cover how easy it is to take them to production with monitoring, scaling and MLOps best practices. MLRun handles all the complexity!
 
