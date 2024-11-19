@@ -27,8 +27,11 @@ from loans_agent import LoanAgent
 from investment_agent import InvestmentAgent
 from general_agent import GeneralAgent
 from choice_intent import MyChoice
+
+# We have 3 intent categories
 intent_categories = ["loans", "investments", "other"]
 
+# This is the workflow graph of our application
 workflow_graph = [
     SessionLoader(),
     RefineQuery(),
@@ -42,7 +45,7 @@ workflow_graph = [
     HistorySaver(),
 ]
 
-
+# Add our workflow to the server to be deployed
 workflow_server.add_workflow(
     name="default",
     graph=workflow_graph,
