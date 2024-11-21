@@ -19,23 +19,3 @@ We will use:
 > Check out the webinar here:
 > 
 > [![Webinar Video](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D-vdOZRaKcvs)](https://www.youtube.com/watch?v=-vdOZRaKcvs)
-
-___
-
-## Installation
-
-This project can run in different development environments:
-* Local computer (using PyCharm, VSCode, Jupyter, etc.)
-* Inside GitHub Codespaces
-* Other managed Jupyter environments
-
-### Requirements
-
-```bash
-pip install mlrun langchain_nvidia_ai_endpoints langchain-openai
-```
-
-### Required Credentials
-
-* NVIDIA NGC API Key
-* OpenAI API Key (for monitoring)
