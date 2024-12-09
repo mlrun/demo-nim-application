@@ -445,7 +445,7 @@ class OpenAIJudge(BaseJudge, ABC):
         if self.verbose:
             logger.info("Establishing connection to OpenAI")
         api_key = mlrun.get_secret_or_env("OPENAI_API_KEY")
-        base_url = mlrun.get_secret_or_env("OPENAI_BASE_URL")
+        base_url = mlrun.get_secret_or_env("OPENAI_API_BASE")
         self.client = openai.OpenAI(
             api_key=api_key,
             base_url=base_url,
